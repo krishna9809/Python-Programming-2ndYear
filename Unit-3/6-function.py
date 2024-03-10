@@ -13,6 +13,8 @@
 # def greet(name):
 #     print("Hello, " + name + "!")
 
+# greet('krishna')
+
 
 # 3. Calling Functions:
 
@@ -54,7 +56,7 @@
 # def greet(name="Guest"):
 #     print("Hello, " + name + "!")
 
-# greet()  # Output: Hello, Guest!
+# # greet()  # Output: Hello, Guest!
 # greet("Alice")  # Output: Hello, Alice!
 
 
@@ -74,14 +76,16 @@
 # Recursion is a technique in which a function calls itself to solve smaller instances of the same problem.
 
 
-# def factorial(n):
-#     if n == 0:
-#         return 1
-#     else:
-#         return n * factorial(n - 1)
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
-# result = factorial(5)
-# print(result)  # Output: 120
+result = factorial(5)
+print(result)  # Output: 120
+
+
 
 
 

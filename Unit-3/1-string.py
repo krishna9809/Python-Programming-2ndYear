@@ -2,8 +2,8 @@
 
 # greeting = "Hello"
 # name = "Alice"
-# message = greeting + ", " + name + "!"
-# print(message)  # Output: Hello, Alice!
+# message = greeting + name
+# print(message)  # Output: Hello Alice
 
 # 2.  Indexing:
 
@@ -14,8 +14,8 @@
 
 # 3. Length:
 
-# message = "Hello, World!"
-# print(len(message))  # Output: 13
+# message = "Hello"
+# print(len(message))  
 
 # 4. Case Conversion:
 
@@ -23,7 +23,7 @@
 # print(message.upper())  # Output: HELLO, WORLD!
 # print(message.lower())  # Output: hello, world!
 # print(message.capitalize())  # Output: Hello, world!
-# print(message.title())  # Output: Hello, World!
+
 
 
 # 5. String Splitting and Joining:

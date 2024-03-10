@@ -6,7 +6,10 @@
 # New key-value pairs can be added to a dictionary using assignment.
 
 # person = {"name": "Alice", "age": 30}
+
 # person["city"] = "New York"
+# print(person)
+
 
 
 # b. Removing Items:
@@ -14,8 +17,10 @@
 # Items can be removed from a dictionary using the del keyword or the pop() method.
 
 # person = {"name": "Alice", "age": 30, "city": "New York"}
-# del person["age"]
+# # del person["age"]
+# # print(person)
 # person.pop("city")
+# print(person)
 
 
 # Dictionary Methods:

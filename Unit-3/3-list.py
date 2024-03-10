@@ -1,9 +1,14 @@
+# fruits = ['apple', 3, 'banana', 'cherry'];
+
+# print(fruits[1])
+
+
 # a. Appending Elements:
 # You can add elements to the end of a list using the append() method.
 
 # fruits = ['apple', 'banana', 'orange']
-# fruits.append('grape')
-# print(fruits)  # Output: ['apple', 'banana', 'orange', 'grape']
+# fruits.append('grapes')
+# print(fruits)  # Output: ['apple', 'banana', 'orange', 'grapes']
 
 
 # b. Removing Elements:
@@ -12,7 +17,8 @@
 
 # fruits = ['apple', 'banana', 'orange']
 # fruits.remove('banana')
-# print(fruits)  # Output: ['apple', 'orange']
+# fruits.pop()
+# print(fruits)  # Output: ['apple']
 
 
 # c. Slicing Lists:

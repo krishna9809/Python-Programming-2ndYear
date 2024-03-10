@@ -1,8 +1,7 @@
 # # 1. Basic
 
 # message = "Hello, World!"
-# print(message[2:6])  # Output: "llo,"
-
+# print(message[0:5])  # 
 
 # # 2. Omitting Start or End
 
@@ -26,10 +25,10 @@
 # # The step parameter specifies how many characters to skip between each character included in the slice.
 
 # message = "Hello, World!"
-# print(message[::2])  # Output: "HloWrd"
+# print(message[::2]) # output-> Hlo ol!
 
 
 # 5. Reversing a String
 
-# message = "Hello, World!"
-# print(message[::-1])  # Output: "!dlroW ,olleH"
+message = "Hello, World!"
+print(message[::-1])  # Output: "!dlroW ,olleH"

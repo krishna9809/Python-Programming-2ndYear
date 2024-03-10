@@ -1,3 +1,4 @@
+
 # a. Immutable Nature:
 
 # Once a tuple is created, its elements cannot be modified, added, or removed.
@@ -11,9 +12,9 @@
 
 # Tuple unpacking allows you to assign the elements of a tuple to separate variables.
 
-# coordinates = (10, 20)
-# x, y = coordinates
-# print(x, y)  # Output: 10 20
+# coordinates = (10, 20,6)
+# x, y,z = coordinates
+# print(x, y,z)  # Output: 10 20 6
 
 
 
@@ -22,9 +23,9 @@
 # The len() function returns the length of a tuple, i.e., the number of elements it contains.
 # The in and not in operators are used to test for membership in a tuple.
 
-# fruits = ('apple', 'banana', 'orange')
+# fruits = ('apple', 'banana', 'orange',5)
 # print(len(fruits))  # Output: 3
-# print('banana' in fruits)  # Output: True
+# print('banaa' in fruits)  # Output: True
 
 
 
